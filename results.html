@@ -1,0 +1,1499 @@
+<div id="body-container">
+	<div id="wrapper">
+	<div id="head">
+	<div class="title">
+	<a href="/">&nbsp;</a>
+	</div>
+	<div class="pub_h">
+	<script language="JavaScript" type="text/javascript">
+	OAS_AD('Top');
+ ping(900);
+	/*showCookiesBanner();*/
+	</script>
+	</div>
+		<div class="clear"></div>
+</div>
+	<div id="cleft">
+ 	<script language="Javascript" type="text/javascript">
+<!--
+var liste_sel_naf = new Array("");
+var liste_sel_act = new Array("","020415082","03022704L","030417","030232041");
+var liste_sel_geo = new Array("");
+var liste_sel_geo_partiel = new Array("");
+var liste_sel_act_lib = new Array("","Emballages et conditionnements en plastique souple - Films pour le btp","Etudes, conception, ingénierie spécialisée en bâtiment - Interventions BTP","Intérim : btp, industrie, transport","Matériel de bâtiment et travaux publics - Location, vente de matériel btp");
+var t_regions = new Array();
+//-->
+</script>
+<div id="chargement" class="display-none">
+	<div class="chargement" ondblclick="Dialog.okCallback();">
+	<img src="/img/chargement_loader.gif" alt="Chargement en cours..."/>
+	<div>Chargement en cours...</div>
+	</div>
+</div>
+<div id="mpp_sauvegarde" class="display-none">
+	<div class="chargement" ondblclick="Dialog.okCallback();">
+	<img src="/img/chargement_loader.gif" alt="Ajout en cours..."/>
+	<div>Ajout en cours...</div>
+	</div>
+</div>
+<div id="mppInfo" style="display:none">
+ <div class="mpp_info">
+ <div id="mppInfoFermer">
+ <div id="ambiguite_closed">
+ <div class="ambiguite_close_txt">
+ <span class="orangetitle"><a href="#" onclick="Dialog.okCallback();" class="grey_little">fermer</a></span>
+ </div>
+ <div class="close_button" onclick="Dialog.okCallback();"></div>
+ </div>
+ </div>
+ <table id="mppInfoCenter">
+ <tr><td>
+ <div id="mppInfoInnerHTML">
+ </div></td></tr>
+ </table>
+ <div class="input">
+ <a id="mppInfoInput" class="info" href="javascript:void(0);" onclick="Dialog.okCallback();">Ok</a>
+ </div>
+ </div>
+</div><div id="rechercherpar" class="reduced">
+	<div class="t" id="rechercherpar_reduced_t">
+	<div class="b" id="rechercherpar_reduced_b">
+	<form name="formChoix1" method="post" action="/recherche.php">
+	<input name="p_ORDRE" type="hidden" value="" />
+	<input name="p_ACTION" type="hidden" value="" />
+	</form>
+	<form name="formChoix2" method="post" action="/recherche.php">
+	<input name="p_ORDRE" type="hidden" value="" />
+	<input name="p_ACTION" type="hidden" value="" />
+	<input name="p_DATA" type="hidden" value="" />
+	<input name="p_DATA_AFF" type="hidden" value="" />
+	</form>
+	<form name="formrechercherpar" method="post" action="/recherche.php">
+	<input name="p_ACTION" type="hidden" value="" />
+	<input name="p_ORDRE" type="hidden" value="" />
+	<input name="a_PAGE" type="hidden" value="1" />
+	<input name="a_TAG" type="hidden" value="" />
+	<input name="a_OccRecherche" type="hidden" value="17" />
+	<input name="typeRecherche" type="hidden" value="express" />
+	<input name="satellite" type="hidden" value="activite"/>
+	<input name="a_activ" type="hidden" value="Films pour le btp ; Interventions BTP ; Intérim : btp, industrie, transport ; Location, vente de matériel btp" />
+	<input name="a_rai_soc" type="hidden" value="" />
+	<input name="a_naf" type="hidden" value="" />
+	<input name="a_siren" type="hidden" value="" />
+	<input name="a_tel" type="hidden" value="" />
+	<input name="a_geo" type="hidden" value="" />
+	<input name="typeTri" type="hidden" value="" />
+	<input name="ordreTri" type="hidden" value="" />
+	<input name="a_session" type="hidden" value="" />
+		</form>
+	<div id="affinage" style="display: none">
+	<div id="chargement_guide">
+	<div class="chargement" ondblclick="Dialog.okCallback();">
+	<img src="/img/chargement_loader.gif" alt="Chargement en cours..."/>
+	<div>Chargement en cours...</div>
+	</div>
+	</div>
+	</div>
+	<script src="/js/inc/act.js"></script>	<script src="/js/inc/naf.js"></script>	<script src="/js/inc/geo.js"></script>	<div id="recherche_express" style="display:block;">
+	<div class="head">
+	<div class="search1"><strong>Rechercher</strong> par...</div>
+	<ul class="menu2" id="modsearch_menu">
+		<li class="act_on" id="activite"><a href="#" onClick="xt_click('', 'C','2','Recherche::Filtres_de_recherche::Activite', 'N');return tabGoto('activite')"><span>Activit&eacute;</span></a></li>
+	<li class="rs" id="raison_sociale"><a href="#" onClick="xt_click('','C','2','Recherche::Filtres_de_recherche::Raison_sociale', 'N');return tabGoto('raison_sociale')"><span>Raison sociale</span></a></li>
+	<li class="naf" id="codenaf"><a href="#" onClick="xt_click('','C','2','Recherche::Filtres_de_recherche::Code_NAF', 'N');return tabGoto('codenaf')"><span>Code NAF</span></a></li>
+	<li class="sir" id="siren"><a href="#" onClick="xt_click('','C','2','Recherche::Filtres_de_recherche::SIREN_SIRET', 'N');return tabGoto('siren')"><span>SIREN/SIRET</span></a></li>
+	<li class="tel" id="telephone"><a href="#" onClick="xt_click('','C','2','Recherche::Filtres_de_recherche::Telephone', 'N');return tabGoto('telephone')"><span>T&eacute;l&eacute;phone</span></a></li>
+	</ul>
+	<div class="clear"></div>
+	<div class="rechavance">
+	<a href="#" onClick="return tabGoto('avancee');">Recherche avancée</a> <span>&gt;&gt;</span>
+	</div>
+	<div class="blocA"  id="mod_activity" style="display:block;">
+	<label for="f_activite">Activité, produit, service</label>
+	<input tabindex="10" class="" type="text" id="activ_exp" name="activ_exp" value="Films pour le btp ; Interventions BTP ; Intérim : btp, industrie, transport ; Location, vente de matériel btp" onfocus="emptyValueIfDefault(this)" _default="Activit&eacute;, produit, service"/>
+	<a href="#" onclick="if (slideguide('guide_act')){OuvrirListeAct('1','');xt_click('','C','2','Recherche::Module_guide::Guide_secteur_d_activite','N');};return false" class="guide">guide</a>
+	Ex: 	<a href="/fr_entreprise_maconnerie.php" title="entreprise de maçonnerie" target="_top">maçonnerie</a>;
+	<a href="/fr_transport_routier.php" title="transport routier"  target="_top">transport routier</a>;
+	<a href="/fr_claustras.php" title="claustras"  target="_top">claustras</a>
+	   	</div>
+	<div class="blocA" id="mod_rs" style="display:none;">
+	<label for="f_rs">Raison sociale, marque, d&eacute;nomination</label>
+	<input tabindex="11" class="defaultValue" type="text" id="rs_exp" value="Raison sociale, marque, d&eacute;nomination" onfocus="emptyValueIfDefault(this)" _default="Raison sociale, marque, d&eacute;nomination"/>
+		</div>
+	<div class="blocA" id="mod_naf" style="display:none;">
+	<label for="f_codenaf">Code NAF</label>
+	<input tabindex="12" class="defaultValue" type="text" id="naf_exp" name="naf_exp" value="Code NAF" onfocus="emptyValueIfDefault(this)" _default="Code NAF"/>
+	<a href="#" class="guide" onclick="if(slideguide('guide_naf')){OuvrirListeNaf('1','');xt_click('','C','2','Recherche::Module_guide::Guide_NAF','N');};return false;">guide</a>
+	Ex: 	41; 620; <a href="/fr_4321a.php">4321a</a>; <a href="/fr_7112b.php">7112b</a>
+			</div>
+	<div class="blocB" id="mod_geo" style="display:block;">
+	<label for="f_lieu">(facultatif) - R&eacute;gion / D&eacute;partement / Localit&eacute;</label>
+	<input tabindex="20" class="defaultValue" type="text" id="geo_exp" name="geo_exp" value="(facultatif) - R&eacute;gion / D&eacute;partement / Localit&eacute" onfocus="emptyValueIfDefault(this)" _default="(facultatif) - R&eacute;gion / D&eacute;partement / Localit&eacute" onblur="defaultValueRestore(this)"/>
+	<a href="#" class="guide" onclick="if(slideguide('guide_geo')){xt_click('','C','Recherche::Module_Guide::Guide_localisation','N');OuvrirListeGeo('2','');}">guide</a>
+	Ex: 	<a href="/fr_annuaire_paca.php" title="annuaire paca" target="_top">paca</a>;
+	<a href="/fr_annuaire_alsace.php" title="annuaire alsace" target="_top">alsace</a>;
+	<a href="/fr_annuaire_69.php" title="annuaire 69" target="_top">69</a>;
+	<a href="/fr_annuaire_yvelines.php" title="annuaire yvelines" target="_top">yvelines</a>;
+	<a href="/fr_annuaire_44200.php" title="annuaire 44200" target="_top">44200</a>;
+	<a href="/fr_annuaire_lille.php" title="annuaire lille" target="_top">lille</a>
+		</div>
+	<div class="blocD" id="mod_siren" style="display:none;">
+	<div class="search2">Entrez les 9 ou 14 chiffres</div>
+	<label for="f_siren">SIREN/SIRET</label>
+	<input tabindex="13" class="defaultValue" style="width: 275px; " type="text" id="siren_exp" name="siren_exp" value="SIREN/SIRET" _default="SIREN/SIRET" onfocus="emptyValueIfDefault(this)" onblur="defaultValueRestore(this)"/>
+		</div>
+	<div class="blocD" id="mod_tel" style="display:none;">
+	<div class="search2">Entrez les chiffres du N° de</div>
+	<label for="f_num">Téléphone, fax, mobile</label>
+	<input tabindex="14" class="defaultValue" style="width: 265px; " type="text" id="tel_exp" name="tel_exp" value="Téléphone, fax, mobile" _default="Téléphone, fax, mobile" onfocus="emptyValueIfDefault(this)" onblur="defaultValueRestore(this)"/>
+		</div>
+	<div class="blocC">
+	<a class="deco"><input id="bouton_trouver_exp" tabindex="30" type="button" name="trouverh" value="" class="btn_trouverh" onclick="ValideFormulaire();"/></a>
+	</div>
+	<div class="clear"></div>
+	</div>
+	    </div>
+	 <div id="recherche_avancee_modifier" style="display:none;">
+	<div class="head">
+	<script>incSearchHeader()</script>
+	<div id="bg_guide_recherche_hot" class="blocD">
+	<div class="search2">Recherche avanc&eacute;e</div>
+	<a class="deco">
+	<input type="button" name="trouverh" value="Modifier" class="btn_modifierh" onclick="displayDiv('recherche_avancee_classique', true);"/>
+	</a>
+	<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+	</div>
+</div>
+<div id="recherche_avancee_guide" style="display:none;">
+	<div class="head">
+ <script>incSearchHeader()</script>
+	<div id="bg_guide_recherche" class="blocD"><div class="search2">Guide Recherche avanc&eacute;e</div></div>
+	</div>
+	<div class="clear"></div>
+	<div class="sep19">&nbsp;</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br>
+</div>
+<div id="recherche_avancee_classique" style="display:none;">
+	<div class="head" id="rechercherpar_head_form">
+ <script>incSearchHeader()</script>
+	<div class="blocE">
+	<a href="#" onclick="if(slideguide('guide_act')){OuvrirListeAct('1','');displayDiv('recherche_avancee_guide');}" class="guide">guide</a>
+	<div class="search2">Activité, produit, service</div>
+	<label for="f_activite">Activité, produit, service</label>
+	<input tabindex="40" class="" type="text" id="activ_av" value="Films pour le btp ; Interventions BTP ; Intérim : btp, industrie, transport ; Location, vente de matériel btp" onfocus="emptyValueIfDefault(this)" onblur="defaultValueRestore(this)" _default="Ex : photogravure; ordinateur d'occasion" />
+	</div>
+	<div class="clear"></div>
+	<div class="blocE">
+	<div class="search2">Raison sociale</div>
+	<label for="f_rs">Raison sociale</label>
+	<input tabindex="41" class="defaultValue" type="text" id="rs_av" value="D&eacute;nomination, marque, enseigne" onfocus="emptyValueIfDefault(this)" onblur="defaultValueRestore(this)" _default="D&eacute;nomination, marque, enseigne" />
+	</div>
+	<div class="clear"></div>
+	<div class="blocE">
+	<a href="#" onclick="if(slideguide('guide_naf')){slideup('guide_geo');OuvrirListeNaf('1','');displayDiv('recherche_avancee_guide');}" class="guide">guide</a>
+	<div class="search2">Code NAF</div>
+	<label for="f_naf">Code NAF</label>
+	<input tabindex="42" class="defaultValue" type="text" id="naf_av" value="Ex : 41; 620; 4321a; 7112b" onfocus="emptyValueIfDefault(this)" onblur="defaultValueRestore(this)" _default="Ex : 41; 620; 4321a; 7112b" />
+	</div>
+	<div class="clear"></div>
+	<div class="blocE">
+	<div class="search2">SIREN/SIRET</div>
+	<label for="f_siren">SIREN/SIRET</label>
+	<input tabindex="43" class="defaultValue" type="text" id="siren_av" value="9 ou 14 chiffres" onfocus="emptyValueIfDefault(this)" onblur="defaultValueRestore(this)" _default="9 ou 14 chiffres"/>
+	</div>
+	<div class="clear"></div>
+	<div class="blocE">
+	<div class="search2">T&eacute;l&eacute;phone</div>
+	<label for="f_tel">T&eacute;l&eacute;phone</label>
+	<input tabindex="44" class="defaultValue" type="text" id="tel_av" value="Ex : 01 46 23 50 00,  0146235000" onfocus="emptyValueIfDefault(this)" onblur="defaultValueRestore(this)" _default="Ex : 01 46 23 50 00,  0146235000"/>
+	</div>
+	<div class="clear"></div>
+	<div class="blocE" style="width:585px;">
+	<div class="ra_separator"></div>
+	</div>
+	<div class="blocE">
+	<a href="#" onclick="if(slideguide('guide_geo')){OuvrirListeGeo('2','');displayDiv('recherche_avancee_guide');}" class="guide">guide</a>
+	<div class="search2">R&eacute;gion / D&eacute;partement / Localit&eacute;</div>
+	<label for="f_lieu">R&eacute;gion / D&eacute;partement / Localit&eacute;</label>
+	<input tabindex="45" class="defaultValue" type="text" id="geo_av" value="(facultatif) - Ex : idf; allier, beauvais; 44200" onfocus="emptyValueIfDefault(this)" onblur="defaultValueRestore(this)" _default="(facultatif) - Ex : idf; allier, beauvais; 44200" />
+	</div>
+	<div class="clear"></div>
+	<div class="blocE w_blocE">
+  <a href="#" onclick="displayDiv('recherche_avancee_modifier', true); return false" class="fermer_avancee">Fermer la Recherche avancée</a>
+ 	<a class="deco" href="#"><input id="bouton_trouver_av" tabindex="50" type="button" name="trouverh" value="" class="btn_trouverh" onclick="ValideFormulaire();" /></a>
+	</div>
+	<div class="clear"></div>
+	</div>
+</div>
+<div class="clear"></div>
+
+	<div id="recherror" style="display: none;" onclick="this.hide();">
+	<div class="warning"></div>
+	<div id="recherror_title"></div>
+	<div id="recherror_msg"></div>
+	</div>
+	</div>
+	</div>
+</div>
+	<div id="resultats" class="lpp_header ">
+	<div class="content">
+	<div style="height: 30px;">
+	<h2>R&eacute;sultat de votre recherche</h2>
+	<div style="height: 30px; width: 350px;	float:left;">
+		<div style="float: left; width: 113px; margin-left: 0px">
+		<a href="#" class="btn_affiner_activite" onclick="affinerActivites(!'', '')">
+	Affiner l'activit&eacute;
+</a>
+		</div>
+	<div style="float: left; width: 102px; margin-left: 15px">
+		<a href="#" class="btn_affiner_lieu" onclick="return affinerLieu(
+ 'guide')">
+	Affiner le lieu
+</a>
+		</div>
+		<div style="float: left; width: 87px; margin-left: 15px">
+	
+<a href="/recherche.php?g_ORDRE=ReAfficheRes&amp;impr=1&amp;a_PAGE=4&amp;time=1461520641" rel="nofollow" id="btn_imprimer" class="btn_imprimer" onclick="window.open(this.href, 'Impression', 'menubar=yes, toolbar=yes, location=no, scrollbars=yes, resizable=yes, width=700,height=700' ); return false;">
+	imprimer
+</a>
+	</div>
+	</div>
+	<div class="clear"></div>
+	</div>
+	<div style="height: 28px;">
+		<div class="lpp_responses">
+	<span class="bleu_reponse">		Réponse(s) 31 &agrave; 40	</span>
+	</div>	<div class="selection_on" id="div_selection_positive" style="display:none;">
+	<a href="#" onclick="Dialog.info({url: '/mod_confirmer.php?g_ORDRE=ViderSelection', options: {method: 'get'}}, {className: 'ambiguite', width:353, height:234, top:xtop, destroyOnClose:true});" />
+	</a>
+	<div onclick="location.href='/recherche.php?g_ORDRE=selection&amp;a_PAGE=1';">
+	Ma s&eacute;lection
+	[<b><span id="nb_selection">0</span></b>]
+	</div>
+</div>
+<div class="selection" id="div_selection_negative" >
+	<span>
+	Ma s&eacute;lection [<b>0</b>]
+	</span>
+</div>
+	<div class="nav">
+						<div class="first"><a href="javascript:Page('1','REP-SUIV')"></a></div>
+	<div class="prev"><a href="javascript:Page('3','REP-PREC');"></a></div>
+			<div class="pages">
+				<a class="off" href="javascript:Page('1','JAUGE');">1</a>|
+						<a class="off" href="javascript:Page('2','JAUGE');">2</a>|
+						<a class="off" href="javascript:Page('3','JAUGE');">3</a>|
+					<a class="on" href="#">4</a>|
+					<a class="off" href="javascript:Page('5','JAUGE');">5</a>|
+				</div>
+		<div class="next">
+		<a href="javascript:Page('5','REP-SUIV')"></a>
+		</div>
+			<div class="last">
+		<a href="javascript:Page('30','REP-SUIV')"></a>
+		</div>
+	</div>	</div>
+	<div class="ls_resultat_description">
+	<div style="float: left"><b>Trier par...&nbsp;&nbsp;</b></div>
+	<div style="float: right; height: 21px; width: 474px">
+	
+<ul class="ls_resultat_sort">
+ 		<li class="sepa"></li>
+		<li class="desactivated">
+	<a><span>e-catalogue</span></a>
+	</li>
+		<li class="sepa"></li>
+		<li class="desactivated">
+	<a><span>vid&eacute;o</span></a>
+	</li>
+		<li class="sepa"></li>
+		<li >
+	<a href="javascript:MM_TriSur('I_PWEB',null);"><span>site web</span></a>
+	</li>
+		<li class="sepa"></li>
+		<li >
+	<a href="javascript:MM_TriSur('I_PMEL',null)"><span>mail</span></a>
+	</li>
+		<li class="sepa"></li>
+		<li >
+	<a href="javascript:MM_TriSur('I_EFF','asc');" class="asc"><span>effectif</span><label>&nbsp;&nbsp;&nbsp;</label></a>
+	</li>
+		<li class="sepa"></li>
+		<li >
+	<a href="javascript:MM_TriSur('I_CP','asc');" class="asc"><span>d&eacute;partement</span><label>&nbsp;&nbsp;&nbsp;</label></a>
+	</li>
+		<li class="sepa"></li>
+		<li >
+	<a href="javascript:MM_TriSur('I_LOCA','asc');" class="asc"><span>localit&eacute;</span><label>&nbsp;&nbsp;&nbsp;</label></a>
+	</li>
+	</ul>
+	</div>
+	</div>
+	</div>
+</div>	
+<div class="ls_resultat_body">
+	<div class="border">
+		
+<div class="total_responses total_responses_top">
+	<b class="total_responses_nr">
+ <b style="color:#ff5500">&ndash;</b>&nbsp;&nbsp;
+			<b class="total_responses_nr">
+	2673 réponses</b>
+		sur l’ensemble de l’activité
+					 &nbsp;&nbsp;<b style="color:#ff5500">&ndash;</b>
+ </b>
+ </div>
+	<div id="notice_list" class="content" onscroll="mppHideOptions()">
+		 <div itemscope itemtype="http://data-vocabulary.org/Organization">
+<div class="results_part1" id="results_part1_7178335">
+ <div class="results_select">
+ 	   <div id="cb7178335" class="case1" onclick="selectionner(7178335); Cocher(this.id);"></div>
+		<span class="small_txt">
+	<label onclick="selectionner(7178335); Cocher('cb7178335');">. s&eacute;lectionner</label>
+	</span>
+	 </div>
+ <div class="results_title">
+ <span itemprop="name">
+		Ariège Materiel Batiment		&nbsp;(AMB)		</span>
+ </div>
+</div>
+<div class="results_part3_short">
+<div class="coordonnees">
+	 <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+	<div class="tel float-right">
+					<strong>
+						tél					&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;05&nbsp;34&nbsp;01&nbsp;21&nbsp;35</span><br />
+				 	</div>
+	<div>
+ <span itemprop="street-address">22 Av Rijolle zi Pic</span><br />
+  <span itemprop="postal-code">09100</span>
+ <span itemprop="locality">Pamiers</span><br />
+		</div>
+ </span>
+ <table id="t_coord_7178335" class="t_coordonnees display-none">
+		<tr>
+			<th>
+	<span>
+				tél			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;05&nbsp;34&nbsp;01&nbsp;21&nbsp;35</span><br />
+			</span>
+	</td>
+	</tr>
+		</table>
+	<div class="coordonnees_web">
+				 	</div>
+</div><div class="clear"></div></div>
+<div class="results_part4_small">
+<div class="results_speciality" id="results_speciality7178335">
+		<dl class="results_speciality_menu">
+ <dd id="smenu7178335" style="display:block;">
+ <span class="speciality_link">
+					<div class="puce_domaine">
+	<strong>Matériel de bâtiment et travaux publics</strong>
+			- Location, vente de matériel btp				- Pelles mécaniques				- Matériel terrassement et démolition						</div>
+			</span>
+ </dd>
+	</dl>
+</div>
+</div>
+<div class="results_part5">
+<div class="results_data" style="padding-top: 18px">
+	<div class="clear"></div>
+	<div style="float: left; width: 177px;text-align:left;">&nbsp;</div>
+	<div style="float: left; width: 145px;text-align:center;">
+  <a id="icon_plan_7178335" class="icon_plan" onclick="xt_click('','C','2','Bloc_inscription::Plan_itineraire','N');return Ouvre_info_plan(7178335, {url: '/plans_emb.php?a_CLE=7178335', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'PLANS', 'France', 'Pamiers', '22 Av Rijolle zi Pic')">Plan / Itin&eacute;raire</a>
+  </div>
+	<div style="float: left; width: 215px;text-align:right;">
+	Envoyer vers :
+	<a id="icon_mail_7178335" class="icon_mail_emb" onclick="xt_click('','C','2','Bloc_inscription::Mail','N');controle_entree_actif=false;Ouvre_envoi_mail(7178335, {url: '/envoi_par_mail_emb.php?a_CLE=7178335', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Mail</a>
+	&nbsp;|&nbsp;
+	<a id="icon_contact_7178335" class="icon_contact" onclick="xt_click('','C','2','Bloc_inscription::Carnet_dadresses','N');controle_entree_actif=false;mppstat('AJOUT-UNIT-OUVERT', true);Ouvre_ajout_contact(7178335, {url: '/mpp_ajout_contact_emb.php?a_CLE=7178335', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Carnet d'adresses</a>
+	</div>
+</div>
+</div>
+<div class="results_part6" id="results_part6_7178335" style="display: none">
+</div>
+<div class="results_part10" id="results_part10_7178335" style="display: none">
+</div>
+<div class="results_part7" id="results_part7_7178335" style="display: none;">
+</div>
+<div class="results_part8" id="results_part8_7178335" style="display: none">
+</div>
+<div class="results_part9">
+</div>
+</div>
+		 <div itemscope itemtype="http://data-vocabulary.org/Organization">
+<div class="results_part1" id="results_part1_6989279">
+ <div class="results_select">
+ 	   <div id="cb6989279" class="case1" onclick="selectionner(6989279); Cocher(this.id);"></div>
+		<span class="small_txt">
+	<label onclick="selectionner(6989279); Cocher('cb6989279');">. s&eacute;lectionner</label>
+	</span>
+	 </div>
+ <div class="results_title">
+ <span itemprop="name">
+		Bonnafous Gérard		&nbsp;(Eurl)		</span>
+ </div>
+</div>
+<div class="results_part3_short">
+<div class="coordonnees">
+	 <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+	<div class="tel float-right">
+					<strong>
+						tél					&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;04&nbsp;68&nbsp;05&nbsp;27&nbsp;15</span><br />
+				 	</div>
+	<div>
+ <span itemprop="street-address">9 lot Parc Activité Pradéen N6</span><br />
+  <span itemprop="postal-code">66500</span>
+ <span itemprop="locality">Prades</span><br />
+		</div>
+ </span>
+ <table id="t_coord_6989279" class="t_coordonnees display-none">
+		<tr>
+			<th>
+	<span>
+				tél			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;04&nbsp;68&nbsp;05&nbsp;27&nbsp;15</span><br />
+			</span>
+	</td>
+	</tr>
+		</table>
+	<div class="coordonnees_web">
+				 	</div>
+</div><div class="clear"></div></div>
+<div class="results_part4_small">
+<div class="results_speciality" id="results_speciality6989279">
+		<dl class="results_speciality_menu">
+ <dd id="smenu6989279" style="display:block;">
+ <span class="speciality_link">
+					<div class="puce_domaine">
+	<strong>Matériel de bâtiment et travaux publics</strong>
+			- Location, vente de matériel btp				- Pelles mécaniques				- Matériel terrassement et démolition						</div>
+			</span>
+ </dd>
+	</dl>
+</div>
+</div>
+<div class="results_part5">
+<div class="results_data" style="padding-top: 18px">
+	<div class="clear"></div>
+	<div style="float: left; width: 177px;text-align:left;">&nbsp;</div>
+	<div style="float: left; width: 145px;text-align:center;">
+  <a id="icon_plan_6989279" class="icon_plan" onclick="xt_click('','C','2','Bloc_inscription::Plan_itineraire','N');return Ouvre_info_plan(6989279, {url: '/plans_emb.php?a_CLE=6989279', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'PLANS', 'France', 'Prades', '9 lot Parc Activité Pradéen N6')">Plan / Itin&eacute;raire</a>
+  </div>
+	<div style="float: left; width: 215px;text-align:right;">
+	Envoyer vers :
+	<a id="icon_mail_6989279" class="icon_mail_emb" onclick="xt_click('','C','2','Bloc_inscription::Mail','N');controle_entree_actif=false;Ouvre_envoi_mail(6989279, {url: '/envoi_par_mail_emb.php?a_CLE=6989279', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Mail</a>
+	&nbsp;|&nbsp;
+	<a id="icon_contact_6989279" class="icon_contact" onclick="xt_click('','C','2','Bloc_inscription::Carnet_dadresses','N');controle_entree_actif=false;mppstat('AJOUT-UNIT-OUVERT', true);Ouvre_ajout_contact(6989279, {url: '/mpp_ajout_contact_emb.php?a_CLE=6989279', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Carnet d'adresses</a>
+	</div>
+</div>
+</div>
+<div class="results_part6" id="results_part6_6989279" style="display: none">
+</div>
+<div class="results_part10" id="results_part10_6989279" style="display: none">
+</div>
+<div class="results_part7" id="results_part7_6989279" style="display: none;">
+</div>
+<div class="results_part8" id="results_part8_6989279" style="display: none">
+</div>
+<div class="results_part9">
+</div>
+</div>
+		 <div itemscope itemtype="http://data-vocabulary.org/Organization">
+<div class="results_part1" id="results_part1_6952746">
+ <div class="results_select">
+ 	   <div id="cb6952746" class="case1" onclick="selectionner(6952746); Cocher(this.id);"></div>
+		<span class="small_txt">
+	<label onclick="selectionner(6952746); Cocher('cb6952746');">. s&eacute;lectionner</label>
+	</span>
+	 </div>
+ <div class="results_title">
+ <span itemprop="name">
+	Montabert&nbsp;	Brenot			&nbsp;(Distributeur exclusif)	</span>
+ </div>
+</div>
+<div class="results_part3_short">
+<div class="coordonnees">
+	 <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+	<div class="tel float-right">
+					<strong>
+						tél					&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;01&nbsp;69&nbsp;88&nbsp;01&nbsp;53</span><br />
+						<strong>
+						fax					&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;01&nbsp;69&nbsp;88&nbsp;99&nbsp;50</span><br />
+				 	</div>
+	<div>
+ <span itemprop="street-address">10 r Léonard de Vinci</span><br />
+  <span itemprop="postal-code">91220</span>
+ <span itemprop="locality">Plessis Pâté (Le)</span><br />
+		</div>
+ </span>
+ <table id="t_coord_6952746" class="t_coordonnees display-none">
+		<tr>
+			<th>
+	<span>
+				tél			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;01&nbsp;69&nbsp;88&nbsp;01&nbsp;53</span><br />
+			</span>
+	</td>
+	</tr>
+		<tr>
+			<th>
+	<span>
+				fax			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;01&nbsp;69&nbsp;88&nbsp;99&nbsp;50</span><br />
+			</span>
+	</td>
+	</tr>
+		</table>
+	<div class="coordonnees_web">
+				<b>E-mail :</b>
+	<a href="#" onclick="xt_click('','C','2','Bloc_inscription::Email','N');Ouvre_info({url: '/envoi_mail.php?cle=6952746&amp;mail=info@brenot.fr', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:416}, 'ENTM');">info@brenot.fr</a><br />
+		  <b class="siteweb">Site Web :</b>&nbsp;
+  <a href="#" onclick="xt_click('','C','2','Bloc_inscription::Site_web','S');SiteURL('http://www.brenot.fr','6952746');" rel="nofollow">www.brenot.fr</a>
+  	</div>
+</div><div class="clear"></div></div>
+<div class="results_part4">
+<div class="results_data">
+	<div style="float: left; width: 177px;text-align:left;">
+		<b>Effectif établ : </b>6 à 9 salariés		</div>
+	<div style="float: left; width: 177px;text-align:right;">
+		<b>Siret : </b>96620037000023		</div>
+	<div style="float: left; width: 177px;text-align:right;">
+		<b>Code NAF : </b>
+	<span class="info_bulle" onmouseover="showtrail('<strong>4663Z</strong> : Commerce de gros (commerce interentreprises) de machines pour l\'extraction, la construction et le génie civil',null, null, 11);" onmouseout="hidetrail();">
+	4663Z	</span>
+		</div>
+	<div class="clear"></div>
+</div>
+<div class="results_speciality" id="results_speciality6952746">
+		<dl class="results_speciality_menu">
+ <dd id="smenu6952746" style="display:block;">
+ <span class="speciality_link">
+					<div class="puce_domaine">
+	<strong>Matériel de bâtiment et travaux publics</strong>
+			- Commerce de gros				- Location, vente de matériel btp				- Matériel terrassement et démolition						</div>
+			</span>
+ </dd>
+	</dl>
+</div>
+</div>
+<div class="results_part5">
+<div class="results_data" style="padding-top: 18px">
+	<div class="clear"></div>
+	<div style="float: left; width: 177px;text-align:left;"><a id="icon_infos_6952746" class="icon_infos" onclick="xt_click('','C','2','Bloc_inscription::Plus_d_infos_sur_lentreprise','N');return Ouvre_info_eco(6952746, {url: '/info_eco_emb.php?g_SIRET=96620037000023', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'SCRL')">Plus d'infos sur l'entreprise</a>&nbsp;</div>
+	<div style="float: left; width: 145px;text-align:center;">
+  <a id="icon_plan_6952746" class="icon_plan" onclick="xt_click('','C','2','Bloc_inscription::Plan_itineraire','N');return Ouvre_info_plan(6952746, {url: '/plans_emb.php?a_CLE=6952746', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'PLANS', 'France', 'Plessis Pâté (Le)', '10 r Léonard de Vinci')">Plan / Itin&eacute;raire</a>
+  </div>
+	<div style="float: left; width: 215px;text-align:right;">
+	Envoyer vers :
+	<a id="icon_mail_6952746" class="icon_mail_emb" onclick="xt_click('','C','2','Bloc_inscription::Mail','N');controle_entree_actif=false;Ouvre_envoi_mail(6952746, {url: '/envoi_par_mail_emb.php?a_CLE=6952746', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Mail</a>
+	&nbsp;|&nbsp;
+	<a id="icon_contact_6952746" class="icon_contact" onclick="xt_click('','C','2','Bloc_inscription::Carnet_dadresses','N');controle_entree_actif=false;mppstat('AJOUT-UNIT-OUVERT', true);Ouvre_ajout_contact(6952746, {url: '/mpp_ajout_contact_emb.php?a_CLE=6952746', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Carnet d'adresses</a>
+	</div>
+</div>
+</div>
+<div class="results_part6" id="results_part6_6952746" style="display: none">
+</div>
+<div class="results_part10" id="results_part10_6952746" style="display: none">
+</div>
+<div class="results_part7" id="results_part7_6952746" style="display: none;">
+</div>
+<div class="results_part8" id="results_part8_6952746" style="display: none">
+</div>
+<div class="results_part9">
+</div>
+</div>
+		 <div itemscope itemtype="http://data-vocabulary.org/Organization">
+<div class="results_part1" id="results_part1_6957725">
+ <div class="results_select">
+ 	   <div id="cb6957725" class="case1" onclick="selectionner(6957725); Cocher(this.id);"></div>
+		<span class="small_txt">
+	<label onclick="selectionner(6957725); Cocher('cb6957725');">. s&eacute;lectionner</label>
+	</span>
+	 </div>
+ <div class="results_title">
+ <span itemprop="name">
+		Conemat				</span>
+ </div>
+</div>
+<div class="results_part3_short">
+<div class="coordonnees">
+	 <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+	<div class="tel float-right">
+	 			<strong>
+				tél			&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;03&nbsp;27&nbsp;23&nbsp;98&nbsp;18</span><br />
+				<div class="results_data2_title" >
+	<a href="#" class=" l_coord" onclick="afficher_coord('t_coord_6957725', this); return false;" >
+	Plus de coordonnées</a>
+	</div>
+			</div>
+	<div>
+ <span itemprop="street-address">ZI Sars Et Rosieres
+r 9 Bonniers</span><br />
+  <span itemprop="postal-code">59178</span>
+ <span itemprop="locality">Brillon</span><br />
+		</div>
+ </span>
+ <table id="t_coord_6957725" class="t_coordonnees display-none">
+		<tr>
+			<th>
+	<span>
+				tél			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;03&nbsp;27&nbsp;23&nbsp;98&nbsp;18</span><br />
+			</span>
+	</td>
+	</tr>
+		<tr>
+			<th>
+	<span>
+				mobile			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;06&nbsp;74&nbsp;95&nbsp;46&nbsp;43</span><br />
+			</span>
+	</td>
+	</tr>
+		<tr>
+			<th>
+	<span>
+				fax			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;03&nbsp;27&nbsp;23&nbsp;98&nbsp;19</span><br />
+			</span>
+	</td>
+	</tr>
+		</table>
+	<div class="coordonnees_web">
+				<b>E-mail :</b>
+	<a href="#" onclick="xt_click('','C','2','Bloc_inscription::Email','N');Ouvre_info({url: '/envoi_mail.php?cle=6957725&amp;mail=conemat@voila.fr', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:416}, 'ENTM');">conemat@voila.fr</a><br />
+		 	</div>
+</div><div class="clear"></div></div>
+<div class="results_part4">
+<div class="results_data">
+	<div style="float: left; width: 177px;text-align:left;">
+		<b>Effectif établ : </b>10 à 19 salariés		</div>
+	<div style="float: left; width: 177px;text-align:right;">
+		<b>Siret : </b>38465526200036		</div>
+	<div style="float: left; width: 177px;text-align:right;">
+		<b>Code NAF : </b>
+	<span class="info_bulle" onmouseover="showtrail('<strong>7732Z</strong> : Location et location-bail de machines et équipements pour la construction',null, null, 11);" onmouseout="hidetrail();">
+	7732Z	</span>
+		</div>
+	<div class="clear"></div>
+</div>
+<div class="results_speciality" id="results_speciality6957725">
+		<dl class="results_speciality_menu">
+ <dd id="smenu6957725" style="display:block;">
+ <span class="speciality_link">
+					<div class="puce_domaine">
+	<strong>Matériel de bâtiment et travaux publics</strong>
+			- Location, vente de matériel btp				- Pelles mécaniques						</div>
+			</span>
+ </dd>
+	</dl>
+</div>
+</div>
+<div class="results_part5">
+<div class="results_data" style="padding-top: 18px">
+	<div class="clear"></div>
+	<div style="float: left; width: 177px;text-align:left;"><a id="icon_infos_6957725" class="icon_infos" onclick="xt_click('','C','2','Bloc_inscription::Plus_d_infos_sur_lentreprise','N');return Ouvre_info_eco(6957725, {url: '/info_eco_emb.php?g_SIRET=38465526200036', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'SCRL')">Plus d'infos sur l'entreprise</a>&nbsp;</div>
+	<div style="float: left; width: 145px;text-align:center;">
+  <a id="icon_plan_6957725" class="icon_plan" onclick="xt_click('','C','2','Bloc_inscription::Plan_itineraire','N');return Ouvre_info_plan(6957725, {url: '/plans_emb.php?a_CLE=6957725', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'PLANS', 'France', 'Brillon', 'ZI Sars Et Rosieres r 9 Bonniers')">Plan / Itin&eacute;raire</a>
+  </div>
+	<div style="float: left; width: 215px;text-align:right;">
+	Envoyer vers :
+	<a id="icon_mail_6957725" class="icon_mail_emb" onclick="xt_click('','C','2','Bloc_inscription::Mail','N');controle_entree_actif=false;Ouvre_envoi_mail(6957725, {url: '/envoi_par_mail_emb.php?a_CLE=6957725', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Mail</a>
+	&nbsp;|&nbsp;
+	<a id="icon_contact_6957725" class="icon_contact" onclick="xt_click('','C','2','Bloc_inscription::Carnet_dadresses','N');controle_entree_actif=false;mppstat('AJOUT-UNIT-OUVERT', true);Ouvre_ajout_contact(6957725, {url: '/mpp_ajout_contact_emb.php?a_CLE=6957725', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Carnet d'adresses</a>
+	</div>
+</div>
+</div>
+<div class="results_part6" id="results_part6_6957725" style="display: none">
+</div>
+<div class="results_part10" id="results_part10_6957725" style="display: none">
+</div>
+<div class="results_part7" id="results_part7_6957725" style="display: none;">
+</div>
+<div class="results_part8" id="results_part8_6957725" style="display: none">
+</div>
+<div class="results_part9">
+</div>
+</div>
+		 <div itemscope itemtype="http://data-vocabulary.org/Organization">
+<div class="results_part1" id="results_part1_5844261">
+ <div class="results_select">
+ 	   <div id="cb5844261" class="case1" onclick="selectionner(5844261); Cocher(this.id);"></div>
+		<span class="small_txt">
+	<label onclick="selectionner(5844261); Cocher('cb5844261');">. s&eacute;lectionner</label>
+	</span>
+	 </div>
+ <div class="results_title">
+ <span itemprop="name">
+		Enarfrance				</span>
+ </div>
+</div>
+<div class="results_part3_short">
+<div class="coordonnees">
+	 <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+	<div class="tel float-right">
+					<strong>
+						tél					&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;05&nbsp;56&nbsp;50&nbsp;35&nbsp;35</span><br />
+						<strong>
+						fax					&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;05&nbsp;56&nbsp;39&nbsp;58&nbsp;30</span><br />
+				 	</div>
+	<div>
+ <span itemprop="street-address">42 r Francis Garnier</span><br />
+  <span itemprop="postal-code">33300</span>
+ <span itemprop="locality">Bordeaux</span><br />
+		</div>
+ </span>
+ <table id="t_coord_5844261" class="t_coordonnees display-none">
+		<tr>
+			<th>
+	<span>
+				tél			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;05&nbsp;56&nbsp;50&nbsp;35&nbsp;35</span><br />
+			</span>
+	</td>
+	</tr>
+		<tr>
+			<th>
+	<span>
+				fax			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;05&nbsp;56&nbsp;39&nbsp;58&nbsp;30</span><br />
+			</span>
+	</td>
+	</tr>
+		</table>
+	<div class="coordonnees_web">
+				 	</div>
+</div><div class="clear"></div></div>
+<div class="results_part4">
+<div class="results_data">
+	<div style="float: left; width: 177px;text-align:left;">
+		<b>Effectif établ : </b>1 ou 2 salariés		</div>
+	<div style="float: left; width: 177px;text-align:right;">
+		<b>Siret : </b>39161968100011		</div>
+	<div style="float: left; width: 177px;text-align:right;">
+		<b>Code NAF : </b>
+	<span class="info_bulle" onmouseover="showtrail('<strong>4663Z</strong> : Commerce de gros (commerce interentreprises) de machines pour l\'extraction, la construction et le génie civil',null, null, 11);" onmouseout="hidetrail();">
+	4663Z	</span>
+		</div>
+	<div class="clear"></div>
+</div>
+<div class="results_speciality" id="results_speciality5844261">
+		<dl class="results_speciality_menu">
+ <dd id="smenu5844261" style="display:block;">
+ <span class="speciality_link">
+					<div class="puce_domaine">
+	<strong>Matériel de bâtiment et travaux publics</strong>
+			- Commerce de gros				- Fabrication				- Location, vente de matériel btp				- Compacteurs				- Matériel terrassement et démolition						</div>
+			</span>
+ </dd>
+	</dl>
+</div>
+</div>
+<div class="results_part5">
+<div class="results_data" style="padding-top: 18px">
+	<div class="clear"></div>
+	<div style="float: left; width: 177px;text-align:left;"><a id="icon_infos_5844261" class="icon_infos" onclick="xt_click('','C','2','Bloc_inscription::Plus_d_infos_sur_lentreprise','N');return Ouvre_info_eco(5844261, {url: '/info_eco_emb.php?g_SIRET=39161968100011', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'SCRL')">Plus d'infos sur l'entreprise</a>&nbsp;</div>
+	<div style="float: left; width: 145px;text-align:center;">
+  <a id="icon_plan_5844261" class="icon_plan" onclick="xt_click('','C','2','Bloc_inscription::Plan_itineraire','N');return Ouvre_info_plan(5844261, {url: '/plans_emb.php?a_CLE=5844261', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'PLANS', 'France', 'Bordeaux', '42 r Francis Garnier')">Plan / Itin&eacute;raire</a>
+  </div>
+	<div style="float: left; width: 215px;text-align:right;">
+	Envoyer vers :
+	<a id="icon_mail_5844261" class="icon_mail_emb" onclick="xt_click('','C','2','Bloc_inscription::Mail','N');controle_entree_actif=false;Ouvre_envoi_mail(5844261, {url: '/envoi_par_mail_emb.php?a_CLE=5844261', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Mail</a>
+	&nbsp;|&nbsp;
+	<a id="icon_contact_5844261" class="icon_contact" onclick="xt_click('','C','2','Bloc_inscription::Carnet_dadresses','N');controle_entree_actif=false;mppstat('AJOUT-UNIT-OUVERT', true);Ouvre_ajout_contact(5844261, {url: '/mpp_ajout_contact_emb.php?a_CLE=5844261', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Carnet d'adresses</a>
+	</div>
+</div>
+</div>
+<div class="results_part6" id="results_part6_5844261" style="display: none">
+</div>
+<div class="results_part10" id="results_part10_5844261" style="display: none">
+</div>
+<div class="results_part7" id="results_part7_5844261" style="display: none;">
+</div>
+<div class="results_part8" id="results_part8_5844261" style="display: none">
+</div>
+<div class="results_part9">
+</div>
+</div>
+		 <div itemscope itemtype="http://data-vocabulary.org/Organization">
+<div class="results_part1" id="results_part1_7959779">
+ <div class="results_select">
+ 	   <div id="cb7959779" class="case1" onclick="selectionner(7959779); Cocher(this.id);"></div>
+		<span class="small_txt">
+	<label onclick="selectionner(7959779); Cocher('cb7959779');">. s&eacute;lectionner</label>
+	</span>
+	 </div>
+ <div class="results_title">
+ <span itemprop="name">
+		Etablissements Alain Faure				</span>
+ </div>
+</div>
+<div class="results_part3_short">
+<div class="coordonnees">
+	 <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+	<div class="tel float-right">
+					<strong>
+						tél					&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;05&nbsp;59&nbsp;30&nbsp;33&nbsp;34</span><br />
+				 	</div>
+	<div>
+ <span itemprop="street-address">zi Berlanne
+r Ayguelongue</span><br />
+  <span itemprop="postal-code">64160</span>
+ <span itemprop="locality">Morlaàs</span><br />
+		</div>
+ </span>
+ <table id="t_coord_7959779" class="t_coordonnees display-none">
+		<tr>
+			<th>
+	<span>
+				tél			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;05&nbsp;59&nbsp;30&nbsp;33&nbsp;34</span><br />
+			</span>
+	</td>
+	</tr>
+		</table>
+	<div class="coordonnees_web">
+				 	</div>
+</div><div class="clear"></div></div>
+<div class="results_part4_small">
+<div class="results_speciality" id="results_speciality7959779">
+		<dl class="results_speciality_menu">
+ <dd id="smenu7959779" style="display:block;">
+ <span class="speciality_link">
+					<div class="puce_domaine">
+	<strong>Matériel de bâtiment et travaux publics</strong>
+			- Location, vente de matériel btp				- Chargeurs et bulldozers				- Compacteurs				- Pelles mécaniques				- Pistes de ski: matériel d'entretien				- Routes,voies ferrées : matériel				- Matériel terrassement et démolition						</div>
+			</span>
+ </dd>
+	</dl>
+</div>
+</div>
+<div class="results_part5">
+<div class="results_data" style="padding-top: 18px">
+	<div class="clear"></div>
+	<div style="float: left; width: 177px;text-align:left;">&nbsp;</div>
+	<div style="float: left; width: 145px;text-align:center;">
+  <a id="icon_plan_7959779" class="icon_plan" onclick="xt_click('','C','2','Bloc_inscription::Plan_itineraire','N');return Ouvre_info_plan(7959779, {url: '/plans_emb.php?a_CLE=7959779', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'PLANS', 'France', 'Morlaàs', 'zi Berlanne r Ayguelongue')">Plan / Itin&eacute;raire</a>
+  </div>
+	<div style="float: left; width: 215px;text-align:right;">
+	Envoyer vers :
+	<a id="icon_mail_7959779" class="icon_mail_emb" onclick="xt_click('','C','2','Bloc_inscription::Mail','N');controle_entree_actif=false;Ouvre_envoi_mail(7959779, {url: '/envoi_par_mail_emb.php?a_CLE=7959779', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Mail</a>
+	&nbsp;|&nbsp;
+	<a id="icon_contact_7959779" class="icon_contact" onclick="xt_click('','C','2','Bloc_inscription::Carnet_dadresses','N');controle_entree_actif=false;mppstat('AJOUT-UNIT-OUVERT', true);Ouvre_ajout_contact(7959779, {url: '/mpp_ajout_contact_emb.php?a_CLE=7959779', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Carnet d'adresses</a>
+	</div>
+</div>
+</div>
+<div class="results_part6" id="results_part6_7959779" style="display: none">
+</div>
+<div class="results_part10" id="results_part10_7959779" style="display: none">
+</div>
+<div class="results_part7" id="results_part7_7959779" style="display: none;">
+</div>
+<div class="results_part8" id="results_part8_7959779" style="display: none">
+</div>
+<div class="results_part9">
+</div>
+</div>
+		 <div itemscope itemtype="http://data-vocabulary.org/Organization">
+<div class="results_part1" id="results_part1_6124159">
+ <div class="results_select">
+ 	   <div id="cb6124159" class="case1" onclick="selectionner(6124159); Cocher(this.id);"></div>
+		<span class="small_txt">
+	<label onclick="selectionner(6124159); Cocher('cb6124159');">s&eacute;lectionner</label>
+	</span>
+	 </div>
+ <div class="results_title">
+ <span itemprop="name">
+		H.B.L				</span>
+ </div>
+</div>
+<div class="results_part3_short">
+<div class="coordonnees">
+	 <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+	<div class="tel float-right">
+					<strong>
+						tél					&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;01&nbsp;64&nbsp;72&nbsp;05&nbsp;60</span><br />
+						<strong>
+						fax					&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;01&nbsp;64&nbsp;72&nbsp;05&nbsp;62</span><br />
+				 	</div>
+	<div>
+ <span itemprop="street-address">27 r Métiers</span><br />
+  <span itemprop="postal-code">77181</span>
+ <span itemprop="locality">COURTRY</span><br />
+		</div>
+ </span>
+ <table id="t_coord_6124159" class="t_coordonnees display-none">
+		<tr>
+			<th>
+	<span>
+				tél			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;01&nbsp;64&nbsp;72&nbsp;05&nbsp;60</span><br />
+			</span>
+	</td>
+	</tr>
+		<tr>
+			<th>
+	<span>
+				fax			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;01&nbsp;64&nbsp;72&nbsp;05&nbsp;62</span><br />
+			</span>
+	</td>
+	</tr>
+		</table>
+	<div class="coordonnees_web">
+				 	</div>
+</div><div class="clear"></div></div>
+<div class="results_part4">
+<div class="results_data">
+	<div style="float: left; width: 177px;text-align:left;">
+		<b>Effectif établ : </b>1 ou 2 salariés		</div>
+	<div style="float: left; width: 177px;text-align:right;">
+		<b>Siret : </b>40799801200014		</div>
+	<div style="float: left; width: 177px;text-align:right;">
+		<b>Code NAF : </b>
+	<span class="info_bulle" onmouseover="showtrail('<strong>7732Z</strong> : Location et location-bail de machines et équipements pour la construction',null, null, 11);" onmouseout="hidetrail();">
+	7732Z	</span>
+		</div>
+	<div class="clear"></div>
+</div>
+<div class="results_speciality" id="results_speciality6124159">
+		<dl class="results_speciality_menu">
+ <dd id="smenu6124159" style="display:block;">
+ <span class="speciality_link">
+					<div class="puce_domaine">
+	<strong>Matériel de bâtiment et travaux publics</strong>
+			- Location, vente de matériel btp						</div>
+			</span>
+ </dd>
+	</dl>
+</div>
+</div>
+<div class="results_part5">
+<div class="results_data" style="padding-top: 18px">
+	<div class="clear"></div>
+	<div style="float: left; width: 177px;text-align:left;"><a id="icon_infos_6124159" class="icon_infos" onclick="xt_click('','C','2','Bloc_inscription::Plus_d_infos_sur_lentreprise','N');return Ouvre_info_eco(6124159, {url: '/info_eco_emb.php?g_SIRET=40799801200014', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'SCRL')">Plus d'infos sur l'entreprise</a>&nbsp;</div>
+	<div style="float: left; width: 145px;text-align:center;">
+  <a id="icon_plan_6124159" class="icon_plan" onclick="xt_click('','C','2','Bloc_inscription::Plan_itineraire','N');return Ouvre_info_plan(6124159, {url: '/plans_emb.php?a_CLE=6124159', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'PLANS', 'France', 'COURTRY', '27 r Métiers')">Plan / Itin&eacute;raire</a>
+  </div>
+	<div style="float: left; width: 215px;text-align:right;">
+	Envoyer vers :
+	<a id="icon_mail_6124159" class="icon_mail_emb" onclick="xt_click('','C','2','Bloc_inscription::Mail','N');controle_entree_actif=false;Ouvre_envoi_mail(6124159, {url: '/envoi_par_mail_emb.php?a_CLE=6124159', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Mail</a>
+	&nbsp;|&nbsp;
+	<a id="icon_contact_6124159" class="icon_contact" onclick="xt_click('','C','2','Bloc_inscription::Carnet_dadresses','N');controle_entree_actif=false;mppstat('AJOUT-UNIT-OUVERT', true);Ouvre_ajout_contact(6124159, {url: '/mpp_ajout_contact_emb.php?a_CLE=6124159', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Carnet d'adresses</a>
+	</div>
+</div>
+</div>
+<div class="results_part6" id="results_part6_6124159" style="display: none">
+</div>
+<div class="results_part10" id="results_part10_6124159" style="display: none">
+</div>
+<div class="results_part7" id="results_part7_6124159" style="display: none;">
+</div>
+<div class="results_part8" id="results_part8_6124159" style="display: none">
+</div>
+<div class="results_part9">
+</div>
+</div>
+		 <div itemscope itemtype="http://data-vocabulary.org/Organization">
+<div class="results_part1" id="results_part1_6278765">
+ <div class="results_select">
+ 	   <div id="cb6278765" class="case1" onclick="selectionner(6278765); Cocher(this.id);"></div>
+		<span class="small_txt">
+	<label onclick="selectionner(6278765); Cocher('cb6278765');">s&eacute;lectionner</label>
+	</span>
+	 </div>
+ <div class="results_title">
+ <span itemprop="name">
+		H.L.S		&nbsp;(Home Location Services)		</span>
+ </div>
+</div>
+<div class="results_part3_short">
+<div class="coordonnees">
+	 <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+	<div class="tel float-right">
+					<strong>
+						tél					&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;02&nbsp;35&nbsp;56&nbsp;66&nbsp;60</span><br />
+				 	</div>
+	<div>
+ <span itemprop="street-address">r Lièvres</span><br />
+  <span itemprop="postal-code">76190</span>
+ <span itemprop="locality">SAINTE MARIE DES CHAMPS</span><br />
+		</div>
+ </span>
+ <table id="t_coord_6278765" class="t_coordonnees display-none">
+		<tr>
+			<th>
+	<span>
+				tél			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;02&nbsp;35&nbsp;56&nbsp;66&nbsp;60</span><br />
+			</span>
+	</td>
+	</tr>
+		</table>
+	<div class="coordonnees_web">
+				 	</div>
+</div><div class="clear"></div></div>
+<div class="results_part4">
+<div class="results_data">
+	<div style="float: left; width: 177px;text-align:left;">
+		<b>Effectif établ : </b>10 à 19 salariés		</div>
+	<div style="float: left; width: 177px;text-align:right;">
+		<b>Siret : </b>34047394100037		</div>
+	<div style="float: left; width: 177px;text-align:right;">
+		<b>Code NAF : </b>
+	<span class="info_bulle" onmouseover="showtrail('<strong>7739Z</strong> : Location et location-bail d\'autres machines, équipements et biens matériels n.c.a.',null, null, 11);" onmouseout="hidetrail();">
+	7739Z	</span>
+		</div>
+	<div class="clear"></div>
+</div>
+<div class="results_speciality" id="results_speciality6278765">
+		<dl class="results_speciality_menu">
+ <dd id="smenu6278765" style="display:block;">
+ <span class="speciality_link">
+					<div class="puce_domaine">
+	<strong>Matériel de bâtiment et travaux publics</strong>
+			- Location, vente de matériel btp						</div>
+			</span>
+ </dd>
+	</dl>
+</div>
+</div>
+<div class="results_part5">
+<div class="results_data" style="padding-top: 18px">
+	<div class="clear"></div>
+	<div style="float: left; width: 177px;text-align:left;"><a id="icon_infos_6278765" class="icon_infos" onclick="xt_click('','C','2','Bloc_inscription::Plus_d_infos_sur_lentreprise','N');return Ouvre_info_eco(6278765, {url: '/info_eco_emb.php?g_SIRET=34047394100037', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'SCRL')">Plus d'infos sur l'entreprise</a>&nbsp;</div>
+	<div style="float: left; width: 145px;text-align:center;">
+  <a id="icon_plan_6278765" class="icon_plan" onclick="xt_click('','C','2','Bloc_inscription::Plan_itineraire','N');return Ouvre_info_plan(6278765, {url: '/plans_emb.php?a_CLE=6278765', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'PLANS', 'France', 'SAINTE MARIE DES CHAMPS', 'r Lièvres')">Plan / Itin&eacute;raire</a>
+  </div>
+	<div style="float: left; width: 215px;text-align:right;">
+	Envoyer vers :
+	<a id="icon_mail_6278765" class="icon_mail_emb" onclick="xt_click('','C','2','Bloc_inscription::Mail','N');controle_entree_actif=false;Ouvre_envoi_mail(6278765, {url: '/envoi_par_mail_emb.php?a_CLE=6278765', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Mail</a>
+	&nbsp;|&nbsp;
+	<a id="icon_contact_6278765" class="icon_contact" onclick="xt_click('','C','2','Bloc_inscription::Carnet_dadresses','N');controle_entree_actif=false;mppstat('AJOUT-UNIT-OUVERT', true);Ouvre_ajout_contact(6278765, {url: '/mpp_ajout_contact_emb.php?a_CLE=6278765', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Carnet d'adresses</a>
+	</div>
+</div>
+</div>
+<div class="results_part6" id="results_part6_6278765" style="display: none">
+</div>
+<div class="results_part10" id="results_part10_6278765" style="display: none">
+</div>
+<div class="results_part7" id="results_part7_6278765" style="display: none;">
+</div>
+<div class="results_part8" id="results_part8_6278765" style="display: none">
+</div>
+<div class="results_part9">
+</div>
+</div>
+		 <div itemscope itemtype="http://data-vocabulary.org/Organization">
+<div class="results_part1" id="results_part1_7317436">
+ <div class="results_select">
+ 	   <div id="cb7317436" class="case1" onclick="selectionner(7317436); Cocher(this.id);"></div>
+		<span class="small_txt">
+	<label onclick="selectionner(7317436); Cocher('cb7317436');">s&eacute;lectionner</label>
+	</span>
+	 </div>
+ <div class="results_title">
+ <span itemprop="name">
+		H.L.S		&nbsp;(Home Location Services)		</span>
+ </div>
+</div>
+<div class="results_part3_short">
+<div class="coordonnees">
+	 <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+	<div class="tel float-right">
+					<strong>
+						tél					&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;02&nbsp;32&nbsp;84&nbsp;03&nbsp;73</span><br />
+						<strong>
+						fax					&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;02&nbsp;35&nbsp;39&nbsp;89&nbsp;46</span><br />
+				 	</div>
+	<div>
+ <span itemprop="street-address">av Prés Kennedy</span><br />
+  <span itemprop="postal-code">76330</span>
+ <span itemprop="locality">NOTRE DAME DE GRAVENCHON</span><br />
+		</div>
+ </span>
+ <table id="t_coord_7317436" class="t_coordonnees display-none">
+		<tr>
+			<th>
+	<span>
+				tél			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;02&nbsp;32&nbsp;84&nbsp;03&nbsp;73</span><br />
+			</span>
+	</td>
+	</tr>
+		<tr>
+			<th>
+	<span>
+				fax			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;02&nbsp;35&nbsp;39&nbsp;89&nbsp;46</span><br />
+			</span>
+	</td>
+	</tr>
+		</table>
+	<div class="coordonnees_web">
+				 	</div>
+</div><div class="clear"></div></div>
+<div class="results_part4">
+<div class="results_data">
+	<div style="float: left; width: 177px;text-align:left;">
+		<b>Effectif établ : </b>3 à 5 salariés		</div>
+	<div style="float: left; width: 177px;text-align:right;">
+		<b>Siret : </b>34047394100078		</div>
+	<div style="float: left; width: 177px;text-align:right;">
+		<b>Code NAF : </b>
+	<span class="info_bulle" onmouseover="showtrail('<strong>7739Z</strong> : Location et location-bail d\'autres machines, équipements et biens matériels n.c.a.',null, null, 11);" onmouseout="hidetrail();">
+	7739Z	</span>
+		</div>
+	<div class="clear"></div>
+</div>
+<div class="results_speciality" id="results_speciality7317436">
+		<dl class="results_speciality_menu">
+ <dd id="smenu7317436" style="display:block;">
+ <span class="speciality_link">
+					<div class="puce_domaine">
+	<strong>Matériel de bâtiment et travaux publics</strong>
+			- Location, vente de matériel btp						</div>
+			</span>
+ </dd>
+	</dl>
+</div>
+</div>
+<div class="results_part5">
+<div class="results_data" style="padding-top: 18px">
+	<div class="clear"></div>
+	<div style="float: left; width: 177px;text-align:left;"><a id="icon_infos_7317436" class="icon_infos" onclick="xt_click('','C','2','Bloc_inscription::Plus_d_infos_sur_lentreprise','N');return Ouvre_info_eco(7317436, {url: '/info_eco_emb.php?g_SIRET=34047394100078', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'SCRL')">Plus d'infos sur l'entreprise</a>&nbsp;</div>
+	<div style="float: left; width: 145px;text-align:center;">
+  <a id="icon_plan_7317436" class="icon_plan" onclick="xt_click('','C','2','Bloc_inscription::Plan_itineraire','N');return Ouvre_info_plan(7317436, {url: '/plans_emb.php?a_CLE=7317436', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'PLANS', 'France', 'NOTRE DAME DE GRAVENCHON', 'av Prés Kennedy')">Plan / Itin&eacute;raire</a>
+  </div>
+	<div style="float: left; width: 215px;text-align:right;">
+	Envoyer vers :
+	<a id="icon_mail_7317436" class="icon_mail_emb" onclick="xt_click('','C','2','Bloc_inscription::Mail','N');controle_entree_actif=false;Ouvre_envoi_mail(7317436, {url: '/envoi_par_mail_emb.php?a_CLE=7317436', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Mail</a>
+	&nbsp;|&nbsp;
+	<a id="icon_contact_7317436" class="icon_contact" onclick="xt_click('','C','2','Bloc_inscription::Carnet_dadresses','N');controle_entree_actif=false;mppstat('AJOUT-UNIT-OUVERT', true);Ouvre_ajout_contact(7317436, {url: '/mpp_ajout_contact_emb.php?a_CLE=7317436', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Carnet d'adresses</a>
+	</div>
+</div>
+</div>
+<div class="results_part6" id="results_part6_7317436" style="display: none">
+</div>
+<div class="results_part10" id="results_part10_7317436" style="display: none">
+</div>
+<div class="results_part7" id="results_part7_7317436" style="display: none;">
+</div>
+<div class="results_part8" id="results_part8_7317436" style="display: none">
+</div>
+<div class="results_part9">
+</div>
+</div>
+		 <div itemscope itemtype="http://data-vocabulary.org/Organization">
+<div class="results_part1" id="results_part1_7629694">
+ <div class="results_select">
+ 	   <div id="cb7629694" class="case1" onclick="selectionner(7629694); Cocher(this.id);"></div>
+		<span class="small_txt">
+	<label onclick="selectionner(7629694); Cocher('cb7629694');">s&eacute;lectionner</label>
+	</span>
+	 </div>
+ <div class="results_title">
+ <span itemprop="name">
+		H.L.S		&nbsp;(Home Location Services)		</span>
+ </div>
+</div>
+<div class="results_part3_short">
+<div class="coordonnees">
+	 <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+	<div class="tel float-right">
+					<strong>
+						tél					&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;02&nbsp;35&nbsp;20&nbsp;85&nbsp;65</span><br />
+						<strong>
+						fax					&nbsp;:	</strong>
+ <span itemprop="tel">
+			&nbsp;02&nbsp;35&nbsp;20&nbsp;95&nbsp;31</span><br />
+				 	</div>
+	<div>
+ <span itemprop="street-address">3 r Castors</span><br />
+  <span itemprop="postal-code">76290</span>
+ <span itemprop="locality">MONTIVILLIERS</span><br />
+		</div>
+ </span>
+ <table id="t_coord_7629694" class="t_coordonnees display-none">
+		<tr>
+			<th>
+	<span>
+				tél			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;02&nbsp;35&nbsp;20&nbsp;85&nbsp;65</span><br />
+			</span>
+	</td>
+	</tr>
+		<tr>
+			<th>
+	<span>
+				fax			&nbsp;:&nbsp;	</span>
+	</th>
+	<td>
+	<span>
+	<span itemprop="tel">
+			&nbsp;02&nbsp;35&nbsp;20&nbsp;95&nbsp;31</span><br />
+			</span>
+	</td>
+	</tr>
+		</table>
+	<div class="coordonnees_web">
+				 	</div>
+</div><div class="clear"></div></div>
+<div class="results_part4">
+<div class="results_data">
+	<div style="float: left; width: 177px;text-align:left;">
+		<b>Effectif établ : </b>10 à 19 salariés		</div>
+	<div style="float: left; width: 177px;text-align:right;">
+		<b>Siret : </b>34047394100029		</div>
+	<div style="float: left; width: 177px;text-align:right;">
+		<b>Code NAF : </b>
+	<span class="info_bulle" onmouseover="showtrail('<strong>7739Z</strong> : Location et location-bail d\'autres machines, équipements et biens matériels n.c.a.',null, null, 11);" onmouseout="hidetrail();">
+	7739Z	</span>
+		</div>
+	<div class="clear"></div>
+</div>
+<div class="results_speciality" id="results_speciality7629694">
+		<dl class="results_speciality_menu">
+ <dd id="smenu7629694" style="display:block;">
+ <span class="speciality_link">
+					<div class="puce_domaine">
+	<strong>Matériel de bâtiment et travaux publics</strong>
+			- Location, vente de matériel btp						</div>
+			</span>
+ </dd>
+	</dl>
+</div>
+</div>
+<div class="results_part5">
+<div class="results_data" style="padding-top: 18px">
+	<div class="clear"></div>
+	<div style="float: left; width: 177px;text-align:left;"><a id="icon_infos_7629694" class="icon_infos" onclick="xt_click('','C','2','Bloc_inscription::Plus_d_infos_sur_lentreprise','N');return Ouvre_info_eco(7629694, {url: '/info_eco_emb.php?g_SIRET=34047394100029', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'SCRL')">Plus d'infos sur l'entreprise</a>&nbsp;</div>
+	<div style="float: left; width: 145px;text-align:center;">
+  <a id="icon_plan_7629694" class="icon_plan" onclick="xt_click('','C','2','Bloc_inscription::Plan_itineraire','N');return Ouvre_info_plan(7629694, {url: '/plans_emb.php?a_CLE=7629694', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'PLANS', 'France', 'MONTIVILLIERS', '3 r Castors')">Plan / Itin&eacute;raire</a>
+  </div>
+	<div style="float: left; width: 215px;text-align:right;">
+	Envoyer vers :
+	<a id="icon_mail_7629694" class="icon_mail_emb" onclick="xt_click('','C','2','Bloc_inscription::Mail','N');controle_entree_actif=false;Ouvre_envoi_mail(7629694, {url: '/envoi_par_mail_emb.php?a_CLE=7629694', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Mail</a>
+	&nbsp;|&nbsp;
+	<a id="icon_contact_7629694" class="icon_contact" onclick="xt_click('','C','2','Bloc_inscription::Carnet_dadresses','N');controle_entree_actif=false;mppstat('AJOUT-UNIT-OUVERT', true);Ouvre_ajout_contact(7629694, {url: '/mpp_ajout_contact_emb.php?a_CLE=7629694', options: {method: 'get'}}, {className: 'ambiguite', width:535, height:556}, 'ENTM');return false;">Carnet d'adresses</a>
+	</div>
+</div>
+</div>
+<div class="results_part6" id="results_part6_7629694" style="display: none">
+</div>
+<div class="results_part10" id="results_part10_7629694" style="display: none">
+</div>
+<div class="results_part7" id="results_part7_7629694" style="display: none;">
+</div>
+<div class="results_part8" id="results_part8_7629694" style="display: none">
+</div>
+<div class="results_part9">
+</div>
+</div>
+	 <br/>
+	</div>
+	</div>
+</div>
+
+	<div class="lpp_footer">
+	<div class="mc" onclick="return marketing_connect('PPI-FR-MKTCON-GEN','http://www.marketingconnect.fr/achat-fichier-adresse.aspx?utm_source=pagespro.com&utm_medium=referral&utm_campaign=PPRECH2&utm_content=LNK&cc=LNK%21PPRECH2')">
+	<a href="#">Achetez et t&eacute;l&eacute;chargez le fichier de votre recherche !</a>
+</div>
+          	<div class="nav">
+						<div class="first"><a href="javascript:Page('1','REP-SUIV')"></a></div>
+	<div class="prev"><a href="javascript:Page('3','REP-PREC');"></a></div>
+			<div class="pages">
+				<a class="off" href="javascript:Page('1','JAUGE');">1</a>|
+						<a class="off" href="javascript:Page('2','JAUGE');">2</a>|
+						<a class="off" href="javascript:Page('3','JAUGE');">3</a>|
+					<a class="on" href="#">4</a>|
+					<a class="off" href="javascript:Page('5','JAUGE');">5</a>|
+				</div>
+		<div class="next">
+		<a href="javascript:Page('5','REP-SUIV')"></a>
+		</div>
+			<div class="last">
+		<a href="javascript:Page('30','REP-SUIV')"></a>
+		</div>
+	</div> </div>
+	<div class="clear"></div>
+	</div>
+	<div id="cright">
+		<div class="verscarnet_monpagespro_banner">
+	<div class="padd">
+	<div class="fltl"><img src="/img/monpagespro.gif" alt="" border="0" /></div>
+	<div class="fltl"><a href="/mpp_ident.php" rel="nofollow" class="identification" onClick="return mppstat('BTN-CONNECT')">S'identifier</a></div>
+	<div class="cbh0">&nbsp;</div>
+	</div>
+	</div>
+	<div class="pub_c">
+	<script language="JavaScript" type="text/javascript">
+	OAS_AD('Right');
+	OAS_AD('Middle');
+	</script>
+</div>					<div class="clear"></div>
+	<br />
+	<script>incServices('b_lr', 'BTP', 'Pro du B&acirc;timent');</script>
+	</div>
+	<div class="clear"></div>
+	<script>incFooter('2016')</script>
+<div id="rail">
+ <img src="/img/rail.jpg" usemap="#railmap" alt="Partenaires PagesPro"/>
+ <map name="railmap">
+ <area shape="rect" coords="105,0,245,48" onClick="railstat('PAGESJAUNES')" href="http://www.pagesjaunes.fr/" alt="PagesJaunes" target="_blank">
+ <area shape="rect" coords="246,0,310,48" onClick="railstat('MAPPY')" href="http://fr.mappy.com/" alt="Mappy" target="_blank">
+ <area shape="rect" coords="311,0,380,48" onClick="railstat('123PAGES')" href="http://www.123pages.fr/" alt="123pages – Annuaire d’entreprises pour rechercher des professionnels" target="_blank">
+ <area shape="rect" coords="381,0,495,48" onClick="railstat('COMPRENDRECHOISIR')" href="http://www.comprendrechoisir.com/" alt="Comprendre/Choisir" target="_blank">
+ <area shape="rect" coords="496,0,652,48" onClick="railstat('MC')" href="http://www.marketingconnect.fr?utm_source=pagespro.com&utm_medium=referral&utm_campaign=PPFOOT&utm_content=LGO&cc=LGO!PPFOOT" alt="MarketingConnect" target="_blank">
+ <area shape="rect" coords="653,0,765,48" onClick="railstat('EMBAUCHE')" href="http://www.embauche.com/" alt="Embauche.com" target="_blank">
+ <area shape="rect" coords="766,0,859,48" onClick="railstat('KAPSTAGE')" href="http://www.kapstages.com/" alt="Kap'Stages" target="_blank">
+ <area shape="rect" coords="860,0,962,48" onClick="railstat('KELTRAVO')" href="http://www.keltravo.com/" alt="Keltravo" target="_blank">
+ </map>
+ <div id="footerSmallMessage"></div>
+</div><script type="text/javascript">
+
+function hideCookiesBanner() {
+	var date = new Date();
+	date.setTime(date.getTime()+(334*24*60*60*1000));
+	document.cookie = "cookiesBannerHidden=1; expires="+date.toGMTString()+"; path=/";
+	new Effect.Fade('cookie-banner', { duration:1});
+	return false;
+}
+function showCookiesBanner() {
+	if (document.cookie.indexOf("cookiesBannerHidden=") != -1)
+	return;
+	var bodytag = document.getElementsByTagName('body')[0];
+	var div = document.createElement('div');
+	div.setAttribute('id','cookie-banner');
+	div.setAttribute('style','display:none;');
+	div.innerHTML = '<div id="cookie-banner-text"><p>En poursuivant votre navigation, vous acceptez l&apos;utilisation de cookies afin de r&eacute;aliser des statistiques d&apos;audience et vous proposer des contenus personnalis&eacute;s. <a href="/cookies.php" title="Information sur les cookies"><b>En&nbsp;savoir plus et param&eacute;trer vos cookies.</b></a></p><div id="cookie-banner-close"><a href="#" onclick="return hideCookiesBanner()" title="Masquer">&times;</a></div></div>';
+	bodytag.insertBefore(div,bodytag.firstChild);
+	new Effect.Appear('cookie-banner', { duration:1});
+}
+Event.observe(w,'load',function(){setTimeout(showCookiesBanner,3000);});
+</script>	</div>
+</div>
+<div id="StatsGriotte" style="position:absolute; z-index:1001; display:none;">
+<img src="http://ciwstat.pagesjaunes.fr/statique?1|7lbocjpa7kmuhqpb4acmjpi5l3|JAUGE|PR|REP|RS/A|538||S252106S200507R222000S|||80||2673|31||R|||||PAGESPRO" alt="" />
+</div>
+	<div id="DivTags" style="position:absolute; z-index:1000;">
+	<SCRIPT language="JavaScript">
+	var axel = Math.random()+"";
+	var a = axel * 10000000000000;
+		document.write('<IFRAME SRC="http://fls.doubleclick.net/activityi;src=2259959;type=pagesp01;cat=rra01;ord='+ a + '?" WIDTH=1 HEIGHT=1 FRAMEBORDER=0></IFRAME>');
+		</SCRIPT>
+		</div>
+<script type="text/javascript">
+<!--
+xtnv=document;
+xtsd="http://logc246";
+xtsite="486926";
+xtn2="2";
+xtpage="Recherche_par_filtres::Liste_de_resultats";
+xtdi="";
+xtergo="0";
+xt_multc="&x1=0302&x2=020415&x3=[Activite]";
+xt_an="";
+xt_ac="";
+if (window.xtparam!=null){window.xtparam+=xt_multc+"&ac="+xt_ac+"&an="+xt_an;}
+else{window.xtparam=xt_multc+"&ac="+xt_ac+"&an="+xt_an;};
+//-->
+</script>
+<script type="text/javascript" src="/js/xtcore.js"></script>
